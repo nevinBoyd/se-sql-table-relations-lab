@@ -175,3 +175,10 @@ df_under_20 = None
 ```python
 conn.close()
 ```
+
+---
+
+## Developer Notes
+- Implemented joins & grouping to link employees, customers, offices, orders, and products
+- Filtered & aggregated results with COUNT(), SUM(), AVG() as required
+- Verified correct ordering + shapes using pytest
